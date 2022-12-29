@@ -1,7 +1,16 @@
-import { Sprite, Stage, Texture, Text } from "react-pixi-fiber/index.js";
-import drum from "./drum.png";
-import * as PIXI from "pixi.js"; 
+import { useCallback, useState } from "react";
+import { usePixiTicker } from "react-pixi-fiber/index.js";
+import DrumSprite from "./DrumSprite";
 
-export default function Drum (props) {
-    return <Sprite texture={PIXI.Texture.from(drum)} {...props} />;
-  }
+let circleSpeed = 4
+// http://pixijs.io/examples/#/basics/basic.js
+function Drum(props) {
+
+  //start at right
+  const [position, setPosition] = useState(300);
+ 
+
+  return <DrumSprite {...props} y={position} />;
+}
+
+export default Drum;
