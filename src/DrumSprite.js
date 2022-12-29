@@ -11,13 +11,11 @@ export default function DrumSprite (props) {
 
   //this is broke. eventually i want a mouse interaction event timeout
   const Clicked = () => {
-    usePixiTicker(
-      useCallback((delta) => {
-        while(delta < .5){
-        setTex(drumhit); alert("hey");}
-        setTex(drum)
-    }))
-  }
+    
+        setTex(drumhit); 
+        setTimeout(() => setTex(drum), 50);
+    }
+  
 
 
     return (
