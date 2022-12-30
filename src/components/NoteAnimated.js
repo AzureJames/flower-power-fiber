@@ -1,6 +1,5 @@
 import { useCallback, useState } from "react";
-import {  Text } from "react-pixi-fiber/index.js";
-import { usePixiTicker } from "react-pixi-fiber/index.js";
+import { usePixiTicker , Text } from "react-pixi-fiber/index.js";
 import Note from "./Note";
 
 let circleSpeed = 4

@@ -1,5 +1,5 @@
 import { useCallback, useState } from "react";
-import { usePixiTicker } from "react-pixi-fiber/index.js";
+//import { usePixiTicker } from "react-pixi-fiber/index.js";
 import DrumSprite from "../img/DrumSprite";
 
 let circleSpeed = 4

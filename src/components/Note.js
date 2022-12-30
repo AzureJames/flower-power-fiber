@@ -1,4 +1,4 @@
-import { Sprite, Stage, Texture, Text } from "react-pixi-fiber/index.js";
+import { Sprite } from "react-pixi-fiber/index.js";
 import note from "../img/note.png";
 import * as PIXI from "pixi.js"; 
 
