@@ -4,10 +4,11 @@ import Note from "./Note";
 
 let circleSpeed = 4
 // http://pixijs.io/examples/#/basics/basic.js
-function NoteAnimated(props, pts) {
+function NoteAnimated(props, pts, startingPos) {
   
   //start at right
   const [position, setPosition] = useState(800);
+  //WHY DOESN'T THIS GET PASSED IN PROPERLY??
   const animate = useCallback((delta) => {
     // move note per time
 
