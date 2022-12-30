@@ -1,7 +1,7 @@
 import { createRoot } from "react-dom/client";
 import { Sprite, Stage, Texture } from "react-pixi-fiber/index";
 import App from "./App.js";
-import bg from "./bg.png";
+// import bg from "./img/bg.png";
 
 
 

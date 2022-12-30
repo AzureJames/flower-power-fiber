@@ -1,5 +1,5 @@
 import { Sprite, Stage, Texture, Text } from "react-pixi-fiber/index.js";
-import flower from "./flower.png";
+import flower from "../img/flower.png";
 import * as PIXI from "pixi.js"; 
 
 export default function Flower (props) {

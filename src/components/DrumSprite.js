@@ -1,6 +1,6 @@
 import { Sprite, Stage, Texture, Text } from "react-pixi-fiber/index.js";
-import drum from "./drum.png";
-import drumhit from "./drumhit.png";
+import drum from "../img/drum.png";
+import drumhit from "../img/drumhit.png";
 import * as PIXI from "pixi.js"; 
 import { useCallback, useState } from "react";
 import { usePixiTicker } from "react-pixi-fiber/index.js";
